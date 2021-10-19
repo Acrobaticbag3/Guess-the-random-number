@@ -17,7 +17,7 @@ namespace Randomenumbergen
                 playerGuess = Convert.ToInt32(Console.ReadLine());
 
                 if (playerGuess > computerNumber) {
-                    Console.WriteLine("Too heigh");
+                    Console.WriteLine("Too high");
 
                 } else if (playerGuess < computerNumber){
                     Console.WriteLine("Too low");
